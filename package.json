@@ -14,7 +14,9 @@
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.3.4"
+    "vue-firestore": "^0.3.30",
+    "vue-router": "^3.3.4",
+    "vue2-editor": "^2.10.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -25,6 +27,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
+    "sweetalert2": "^9.17.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
