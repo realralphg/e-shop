@@ -110,6 +110,7 @@ export default {
                 .then((user) => {
                     $('#login').modal('hide')
                     
+        //---------  Create USER P R O F I L E on successful Registration! ---------- //
                     db.collection("profiles").doc(user.user.uid).set({
                         name: this.name
                     })

@@ -5,6 +5,7 @@ import Admin from './components/Views/Admin'
 
 import Overview from './components/Views/Overview'
 import Products from './components/Views/Products'
+import Profile from './components/Views/Profile'
 import Orders from './components/Views/Orders'
 
 export default [
@@ -34,6 +35,11 @@ export default [
                 name: 'products',
                 component: Products
             },
+            {
+                path: 'profile', 
+                name: 'profile',
+                component: Profile
+            },            
             {
                 path: 'orders', 
                 name: 'orders',

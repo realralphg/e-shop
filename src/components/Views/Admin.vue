@@ -112,24 +112,27 @@ export default {
     //Landing
   },
   methods:{
-      closeMenu(){
-        $(".page-wrapper").toggleClass("toggled")
-      },
-      logout(){
-          fb.auth().signOut()
-          .then(() => {
-              this.$router.replace('/');
-          })
-          .catch((err) =>{
-              console.log(err);
-          });
-      }
+    // C L O S E - M E N U 
+    closeMenu(){
+    $(".page-wrapper").toggleClass("toggled")
+    },
+    
+    // L O G O U T
+    logout(){
+        fb.auth().signOut()
+        .then(() => {
+            this.$router.replace('/');
+        })
+        .catch((err) =>{
+            console.log(err);
+        });
+    }
   },
 
-//   created(){
-//       let user = fb.auth().currentUser;
-//       this.email = user.email;
-//   }
+  created(){
+      let user = fb.auth().currentUser;
+      this.email = user.email;
+  }
 };
 </script>
 

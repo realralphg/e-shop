@@ -2,6 +2,7 @@
     <div >
         <Navbar/>
         <Landing/>
+        <ProductList/>
         <Products/>
         <Login/>
       <div class="container h-100">
