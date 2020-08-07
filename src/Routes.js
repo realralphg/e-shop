@@ -1,5 +1,6 @@
 import Home from './components/Views/Home'
 import About from './components/Views/About'
+import Checkout from './components/Views/Checkout'
 import Admin from './components/Views/Admin'
 
 
@@ -18,6 +19,11 @@ export default [
         path: '/about', 
         name: 'about',
         component: About
+    },
+    {
+        path: '/checkout', 
+        name: 'checkout',
+        component: Checkout
     },
     {
         path: '/admin', 

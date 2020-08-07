@@ -5,6 +5,7 @@
         <ProductList/>
         <Products/>
         <Login/>
+        <mini-cart/>
       <div class="container h-100">
         <div class="row p-5 h-100 justify-content-center align-items-center">
           <div class="col-md-6">
@@ -21,6 +22,7 @@
           </div>
         </div>
       </div>        
+                     
     </div>
 </template>
 

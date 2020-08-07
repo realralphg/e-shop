@@ -20,10 +20,10 @@
                             </div>
 
                             <add-to-cart
-                            :product-image="getImage(product.images)"
+                            :image="getImage(product.images)"
                             :name="product.name"
                             :price="product.price"
-                            :product-id="product.id"
+                            :productId="product.id"
                             >                                
                             </add-to-cart>
                         </div>

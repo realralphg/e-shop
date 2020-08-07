@@ -48,6 +48,7 @@ Vue.config.productionTip = false
 // G L O B L L Y  Register Component 
 Vue.component('Navbar', require('./components/Navbar.vue').default)
 Vue.component('add-to-cart', require('./components/AddToCart.vue').default)
+Vue.component('mini-cart', require('./components/MiniCart.vue').default)
 Vue.component('ProductList', require('./components/Sections/ProductList.vue').default)
 
 Vue.use(VueRouter);
